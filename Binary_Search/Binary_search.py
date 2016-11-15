@@ -32,6 +32,3 @@ class BinarySearch(list):
 						first = midpoint + 1
 			return {'count': count, 'index' : self.listnum.index(item)}
 
-ten_to_thousand = BinarySearch(20, 2)
-search2 = ten_to_thousand.listnum
-print search2
